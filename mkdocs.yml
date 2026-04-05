@@ -122,9 +122,4 @@ nav:
       - Autovalutazione: sviluppo/autovalutazione.md
       - Piano di miglioramento: sviluppo/piano.md
 
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/gmorimac-droid
-
 copyright: © 2026 Massimo Mori
