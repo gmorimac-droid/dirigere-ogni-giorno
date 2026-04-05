@@ -1,0 +1,129 @@
+site_name: Dirigere ogni giorno
+site_description: Guida operativa al lavoro quotidiano e alle competenze del dirigente
+site_author: Massimo Mori
+
+repo_name: gmorimac-droid/dirigere-ogni-giorno
+repo_url: https://github.com/gmorimac-droid/dirigere-ogni-giorno
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: it
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Passa alla modalità scura
+    - scheme: slate
+      primary: blue grey
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Passa alla modalità chiara
+  icon:
+    repo: fontawesome/brands/github
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - Home: index.md
+
+  - Ruolo del dirigente:
+      - Il ruolo del dirigente: ruolo/ruolo.md
+      - Responsabilità del dirigente: ruolo/responsabilita.md
+      - Differenza tra manager e dirigente: ruolo/differenza.md
+    
+  - Lavoro quotidiano:
+      - La giornata del dirigente: lavoro/giornata.md
+      - Priorità e gestione del tempo: lavoro/priorita.md
+      - Riunioni e follow-up: lavoro/riunioni.md
+      - Gestione delle richieste e delle interruzioni: lavoro/interruzioni.md
+
+  - Decisioni:
+      - Prendere decisioni: decisioni/metodo.md
+      - Decisioni con informazioni incomplete: decisioni/incomplete.md
+      - Errori decisionali: decisioni/errori.md
+
+  - Persone e team:
+      - Delega: team/delega.md
+      - Assegnare obiettivi: team/obiettivi.md
+      - Feedback: team/feedback.md
+      - Gestire collaboratori difficili: team/difficili.md
+
+  - Organizzazione e controllo:
+      - Pianificazione: organizzazione/pianificazione.md
+      - Monitoraggio attività: organizzazione/monitoraggio.md
+      - KPI essenziali: organizzazione/kpi.md
+      - Reporting: organizzazione/reporting.md
+
+  - Comunicazione:
+      - Comunicazione operativa: comunicazione/operativa.md
+      - Riunioni efficaci: comunicazione/riunioni.md
+      - Comunicare decisioni difficili: comunicazione/difficili.md
+
+  - Situazioni critiche:
+      - Conflitti: criticita/conflitti.md
+      - Crisi operative: criticita/crisi.md
+      - Pressione e stress: criticita/pressione.md
+
+  - Errori tipici:
+      - Errori strutturali: errori/strutturali.md
+      - Errori operativi: errori/operativi.md
+      - Errori relazionali: errori/relazionali.md
+
+  - Strumenti:
+      - Checklist: strumenti/checklist.md
+      - Template: strumenti/template.md
+      - Matrici e schemi: strumenti/matrici.md
+
+  - Casi pratici:
+      - Team disallineato: casi/team-disallineato.md
+      - Collaboratore difficile: casi/collaboratore-difficile.md
+      - Troppe riunioni, poco avanzamento: casi/riunioni.md
+      - Decisione bloccata: casi/decisione-bloccata.md
+      - Sovraccarico di lavoro: casi/sovraccarico.md
+    
+  - Sviluppo:
+      - Autovalutazione: sviluppo/autovalutazione.md
+      - Piano di miglioramento: sviluppo/piano.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/gmorimac-droid
+
+copyright: © 2026 Massimo Mori
